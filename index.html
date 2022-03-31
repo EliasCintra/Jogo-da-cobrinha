@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <title>Jogo da Cobrinha</title>
+   <meta name="viewport" content="width=device-width; initial-scale=1.0">
+   <link rel="icon" type="imagem/png" href="imagens\icone.png"/>
+    <style>
+        canvas {
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+        }
+        body{
+            background-image:url(imagens/background.jpg);
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+            background-size:100% 100%;
+        }
+    </style>
+</head>
+<body>
+  <canvas id="canvas" width="400" height="400"> </canvas> <!-- tamanho do quadro do jogo -->
+  <script src="logica.js"></script>
+</body>
+</html>
